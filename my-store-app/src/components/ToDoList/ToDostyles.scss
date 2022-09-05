@@ -1,0 +1,24 @@
+.inputStyle {
+  margin: 10px 5px 5px 5px;
+}
+
+.inputForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100px;
+}
+
+.todoList {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 300px;
+}
+
+label {
+  display: flex;
+  width: 175px;
+  border: 1px solid black;
+  margin: 0 9px 0 6px;
+}
