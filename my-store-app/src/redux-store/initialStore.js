@@ -1,5 +1,7 @@
 const initialStore = {
-    todoList: []
+    basket: [],
+    todoList: [],
+    auth: false,
 };
 
 export default initialStore;

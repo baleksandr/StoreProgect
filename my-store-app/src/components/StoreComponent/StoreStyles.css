@@ -1,0 +1,64 @@
+body {
+    margin: 0 auto;
+    max-width: 1050px;
+    height: 700px;
+    background-color: #171616;
+}
+
+.headStore {
+    display: grid;
+    grid-template-columns: minmax(231px, auto) 508px 317px;
+    height: 60px;
+    background-color: black;
+    width: 100%;
+}
+
+.logoImg {
+    margin-left: 50px;
+    width: 300px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+    width: 370px;
+    margin-bottom: 13px;
+
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 12px;
+
+}
+
+.adminPanel {
+    display: flex;
+    flex-direction: row;
+    width: 170px;
+    justify-content: space-between;
+}
+
+label {
+    margin-left: 0;
+}
+
+.storeField {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.price {
+    color: white;
+}
